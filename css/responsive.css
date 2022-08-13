@@ -1,0 +1,96 @@
+@media(max-width: 800px){
+
+    .contact-section .contact-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-text, .home-section .home-img{
+        flex:0 0 100%;
+        max-width: 100%;
+        
+    }
+
+
+     .home-section .home-text{
+      order: 2;
+     }
+
+
+    .home-section .home-text{
+        text-align: center;
+       
+    }
+
+    .home-section .full-screen{
+        padding: 100px  0;
+    }
+ 
+    .home-section .home-img .img-box{
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+
+    .effect-3{
+        margin-left: -60px;
+    }
+
+    .effect-4{
+        left: 10%;
+    }
+
+    .effect-5{
+        right: 4%;
+    } 
+
+    .about-section .about-img{
+        padding-bottom:30px;
+    }
+
+
+}
+
+
+
+@media (max-width:574px) {
+
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    
+    .home-section .home-text h2{
+        font-size: 40px;
+    }
+    .home-section .home-text h1{
+        font-size: 15px;
+    }
+
+    .effect-3{
+        margin-left: -80px;
+    }
+
+    .effect-4{
+        left: 4%; 
+    }
+
+    .effect-5{
+        right: 3%;
+        top: 280px;
+       
+    } 
+}
+@media (max-width:376px) {
+    .contact-section .contact-item{
+        margin-left:45px
+    }
+   
+}
+@media (min-width:340px) and (max-width:380px){
+    .contact-section .contact-item{
+        margin-left:15px
+    }
+
+      
+}
+@media (max-width:330px){
+.section-title h2{
+margin-left: 118px;
+word-break: break-word;}}
